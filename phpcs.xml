@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<ruleset name="Casino Soft Programming Rules">
+    <description>Reglas a cumplir para subir codigo.</description>
+    <!-- Rutas que no se revisaran -->
+    <exclude-pattern>*.blade.php</exclude-pattern>
+    <exclude-pattern>*.js</exclude-pattern>
+    <exclude-pattern>**/*.js</exclude-pattern>
+    <exclude-pattern>app/Console/Commands/Deving.php</exclude-pattern>
+    <exclude-pattern>app/Console/Kernel.php</exclude-pattern>
+    <exclude-pattern>app/Exceptions/BaseException.php</exclude-pattern>
+    <exclude-pattern>app/Exceptions/Handler.php</exclude-pattern>
+    <exclude-pattern>app/Http/Controllers/Auth/*</exclude-pattern>
+    <exclude-pattern>app/Http/Controllers/ProfileController.php</exclude-pattern>
+    <exclude-pattern>app/Http/Controllers/User.php</exclude-pattern>
+    <exclude-pattern>app/Http/Kernel.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/Authenticate.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/EncryptCookies.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/HandleInertiaRequests.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/PreventRequestsDuringMaintenance.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/RedirectIfAuthenticated.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/TrimStrings.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/TrustHosts.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/TrustProxies.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/ValidateSignature.php</exclude-pattern>
+    <exclude-pattern>app/Http/Middleware/VerifyCsrfToken.php</exclude-pattern>
+    <exclude-pattern>app/Http/Requests/Auth/LoginRequest.php</exclude-pattern>
+    <exclude-pattern>app/Http/Requests/ProfileUpdateRequest.php</exclude-pattern>
+    <exclude-pattern>app/Models/User.php</exclude-pattern>
+    <exclude-pattern>app/Providers/AppServiceProvider.php</exclude-pattern>
+    <exclude-pattern>app/Providers/AuthServiceProvider.php</exclude-pattern>
+    <exclude-pattern>app/Providers/BroadcastServiceProvider.php</exclude-pattern>
+    <exclude-pattern>app/Providers/EventServiceProvider.php</exclude-pattern>
+    <exclude-pattern>app/Providers/RouteServiceProvider.php</exclude-pattern>
+    <exclude-pattern>bootstrap/*</exclude-pattern>
+    <exclude-pattern>bootstrap/app.php</exclude-pattern>
+    <exclude-pattern>bootstrap/cache/packages.php</exclude-pattern>
+    <exclude-pattern>bootstrap/cache/services.php</exclude-pattern>
+    <exclude-pattern>bootstrap/providers.php</exclude-pattern>
+    <exclude-pattern>config/*</exclude-pattern>
+    <exclude-pattern>database/factories/*</exclude-pattern>
+    <exclude-pattern>database/factories/UserFactory.php</exclude-pattern>
+    <exclude-pattern>database/migrations/0001_01_01_000000_create_users_table.php</exclude-pattern>
+    <exclude-pattern>database/migrations/0001_01_01_000001_create_cache_table.php</exclude-pattern>
+    <exclude-pattern>database/migrations/0001_01_01_000002_create_jobs_table.php</exclude-pattern>
+    <exclude-pattern>database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php</exclude-pattern>
+    <exclude-pattern>public/index.php</exclude-pattern>
+    <exclude-pattern>routes/auth.php</exclude-pattern>
+    <exclude-pattern>routes/channels.php</exclude-pattern>
+    <exclude-pattern>routes/console.php</exclude-pattern>
+    <exclude-pattern>routes/web.php</exclude-pattern>
+    <exclude-pattern>STDIN</exclude-pattern>
+    <exclude-pattern>storage/*</exclude-pattern>
+    <exclude-pattern>tests/CreatesApplication.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/Auth/AuthenticationTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/Auth/EmailVerificationTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/Auth/PasswordConfirmationTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/Auth/PasswordResetTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/Auth/PasswordUpdateTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/Auth/RegistrationTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/ExampleTest.php</exclude-pattern>
+    <exclude-pattern>tests/Feature/ProfileTest.php</exclude-pattern>
+    <exclude-pattern>tests/TestCase.php</exclude-pattern>
+    <exclude-pattern>tests/Unit/ExampleTest.php</exclude-pattern>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <!-- Reglas -->
+    <rule ref="PSR1" />
+    <rule ref="PSR12" />
+    <rule ref="Squiz">
+        <exclude name="Squiz.Arrays.ArrayDeclaration.DoubleArrowNotAligned" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed" />
+        <exclude name="Squiz.Commenting.ClosingDeclarationComment" />
+        <exclude name="Squiz.Commenting.FileComment.AuthorTagOrder" />
+        <exclude name="Squiz.Commenting.FileComment.IncorrectAuthor" />
+        <exclude name="Squiz.Commenting.FileComment.IncorrectCopyright" />
+        <exclude name="Squiz.Commenting.FileComment.MissingPackageTag" />
+        <exclude name="Squiz.Commenting.FileComment.MissingSubpackageTag" />
+        <exclude name="Squiz.Commenting.FileComment.PackageTagOrder" />
+        <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen" />
+        <exclude name="Squiz.Commenting.FileComment.SubpackageTagOrder" />
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
+        <exclude name="Squiz.Commenting.FunctionComment.MissingReturn" />
+        <exclude name="Squiz.Commenting.FunctionCommentThrowTag" />
+        <exclude name="Squiz.Commenting.InlineComment" />
+        <exclude name="Squiz.Commenting.LongConditionClosingComment" />
+        <exclude name="Squiz.Commenting.VariableComment" />
+        <exclude name="Squiz.ControlStructures.SwitchDeclaration.BreakIndent" />
+        <exclude name="Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak" />
+        <exclude name="Squiz.CSS.Indentation.Incorrect" />
+        <exclude name="Squiz.Files.FileExtension.ClassFound" />
+        <exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound" />
+        <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar" />
+        <exclude name="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose" />
+        <exclude name="Squiz.WhiteSpace.FunctionSpacing.Before" />
+        <exclude name="Squiz.WhiteSpace.FunctionSpacing" />
+        <exclude name="Squiz.WhiteSpace.MemberVarSpacing" />
+        <exclude name="Squiz.WhiteSpace.ObjectOperatorSpacing" />
+        <exclude name="Squiz.ControlStructures.ElseIfDeclaration" />
+    </rule>
+    <rule ref="PEAR">
+        <exclude name="PEAR.Commenting.ClassComment.MissingAuthorTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingCategoryTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingLicenseTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingLinkTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingPackageTag" />
+        <exclude name="PEAR.Commenting.FileComment.MissingCategoryTag" />
+        <exclude name="PEAR.Commenting.FileComment.MissingLicenseTag" />
+        <exclude name="PEAR.Commenting.FileComment.MissingLinkTag" />
+        <exclude name="PEAR.Commenting.FileComment.MissingPackageTag" />
+        <exclude name="PEAR.Commenting.FileComment.MissingVersion" />
+        <exclude name="PEAR.Commenting.FunctionComment.MissingParamTag" />
+        <exclude name="PEAR.Commenting.FunctionComment.MissingReturn" />
+        <exclude name="PEAR.ControlStructures.MultiLineCondition.SpacingAfterOpenBrace" />
+        <exclude name="PEAR.ControlStructures.MultiLineCondition.StartWithBoolean" />
+        <exclude name="PEAR.NamingConventions.ValidFunctionName.PrivateNoUnderscore" />
+        <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore" />
+        <exclude name="PEAR.WhiteSpace.ScopeIndent" />
+    </rule>
+    <rule ref="Generic">
+        <exclude name="Generic.Arrays.DisallowShortArraySyntax" />
+        <exclude name="Generic.Classes.OpeningBraceSameLine" />
+        <exclude name="Generic.CodeAnalysis.UselessOverridingMethod" />
+        <exclude name="Generic.Files.EndFileNoNewline" />
+        <exclude name="Generic.Files.LowercasedFilename.NotFound" />
+        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame" />
+        <exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman" />
+        <exclude name="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
+        <exclude name="Generic.PHP.ClosingPHPTag.NotFound" />
+        <exclude name="Generic.PHP.UpperCaseConstant" />
+        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
+        <exclude name="Generic.Formatting.SpaceAfterCast" />
+        <exclude name="Generic.Formatting.SpaceBeforeCast" />
+    </rule>
+    <rule ref="Zend">
+        <exclude name="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore" />
+    </rule>
+    <rule ref="MySource.PHP.GetRequestData" />
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120" />
+            <property name="absoluteLineLimit" value="120" />
+        </properties>
+    </rule>
+</ruleset>

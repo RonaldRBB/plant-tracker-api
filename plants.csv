@@ -1,0 +1,28 @@
+scientific_name,common_name,spring_watering_frequency,summer_watering_frequency,autumn_watering_frequency,winter_watering_frequency,minimum_light_fc,ideal_light_fc,fertilization_period,spring_fertilization,summer_fertilization,autumn_fertilization,winter_fertilization
+Echeveria Apus,Echeveria,15,15,15,30,500,1000,6,True,True,False,False
+Echeveria 'Yamatomini',Echeveria Yamatomini,15,15,15,30,500,1000,6,True,True,False,False
+Haworthiopsis Fasciata,Planta Cebra,15,15,15,30,500,1000,6,True,True,False,False
+Crassula Ovata,Planta Jade,15,15,15,30,500,1000,6,True,True,False,False
+Parodia Leninghausii,Cacto Erizo Dorado,15,15,15,30,400,800,8,True,True,False,False
+Parodia Scopa,Cacto Erizo De Pico,15,15,15,30,400,800,8,True,True,False,False
+Ferocactus Peninsulae,Cacto Barril,15,15,15,30,400,800,8,True,True,False,False
+Uebelmannia Buiningii,Cacto Uebelmannia,20,20,20,30,400,800,8,True,True,False,False
+Echinopsis Chamaecereus,Cactus Cacahuete,15,15,15,30,400,800,8,True,True,False,False
+Tillandsia Stricta,Aerea,1,1,1,1,300,500,6,True,True,False,False
+Begonia Maculata,Begonia Maculata,2,2,2,10,300,500,6,True,True,False,False
+Sansevieria Trifasciata,Lengua De Suegra,15,15,15,30,50,300,8,True,True,False,False
+Persea Americana,Aguacate,7,7,7,14,500,1000,4,True,True,False,False
+Plectranthus Verticillatus,Planta De La Fortuna,7,7,7,14,300,500,4,True,True,False,False
+Chlorophytum Comosum,Malamadre,7,7,7,14,200,400,4,True,True,False,False
+Begonia Boliviensis,Begonia Cascada,2,2,2,10,300,500,6,True,True,False,False
+Aglaonema Costatum,Aglaonema,7,7,7,14,200,400,6,True,True,False,False
+Fittonia Albivenis,Fitonia Verde,2,2,2,10,50,300,4,True,True,False,False
+Fittonia Albivenis,Fitonia Roja,2,2,2,10,50,300,4,True,True,False,False
+Monstera Adansonii,Monstera De Hoja Pequena,7,7,7,14,300,500,4,True,True,False,False
+Philodendron Hederaceum,Hoja De Hombre,7,7,7,14,300,500,4,True,True,False,False
+Philodendron Glorious,Philodendron Glorious,7,7,7,14,300,500,6,True,True,False,False
+Dionaea Muscipula,Venus Atrapamoscas,1,1,1,1,500,1000,0,False,False,False,False
+Drosera Capensis,Drosera Capensis,1,1,1,1,500,1000,0,False,False,False,False
+Drosera Rotundifolia,Drosera Rotundifolia,1,1,1,1,500,1000,0,False,False,False,False
+Syngonium Podophyllum,Syngonium,7,7,7,14,300,500,4,True,True,False,False
+Epipremnum Aureum,Pothos,7,7,7,14,50,300,4,True,True,False,False
